@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+	background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                       rgba(0, 0, 0, 0.2)), url("../assets/matthew-henry-yETqkLnhsUI-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+					   overflow-y: hidden;
+					   margin: 0;
+}
+.logoimg{
+
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+
+header{
+	background-color: rgba(12, 12, 12, 0.712);
+	color: white;
+	padding: 8px 20px 6px 40px;
+	height: 52px;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Lobster', cursive;
+	font-weight: 250;
+	font-size: 30px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	display: flex;
+	font-family: 'Dosis', sans-serif;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li{
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+	
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#navli ul li ul:hover{
+	visibility: visible;
+	display: block;
+}
+
+
+
+
+
+#navli{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered{
+	background-color: rgb(53, 119, 22);
+	padding: 30px 10px 22px 10px;
+}
+
+
+.homeblack:hover{
+	background-color: rgb(53, 119, 22);
+	padding: 30px 10px 21px 10px;
+
+}
+
+.beforeTable{
+	overflow: hidden;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 0px auto;
+  max-height: 400px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+
+
+
+th{
+	top: 0;
+	position: sticky;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr{background-color: #f2f2f2}
+tr:hover {background-color:rgb(134, 241, 145);}
+
+th {
+  background-color: rgb(46, 136, 30);
+
+  color: white;
+}
+
+.tableBtn{
+	text-decoration: none;
+	color: aliceblue;
+	background-color: rgb(46, 136, 30);
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+
+.foot {
+	background-color: rgba(12, 12, 12, 0.712);
+	position: absolute;
+	color: aliceblue;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+  }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+
+   
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                       rgba(0, 0, 0, 0.2)), url("../assets/matthew-henry-yETqkLnhsUI-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+					   overflow-y: scroll;
+					   margin: 0;
+					   height: 150vh;
+}
+
+header{
+	background-color: rgba(12, 12, 12, 0.712);
+	color: white;
+	padding: 8px 20px 6px 40px;
+	height: 50px;
+}
+.logoimg{
+	float: left;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	margin: 0 10px 0 0;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Lobster', cursive;
+	font-weight: 250;
+	font-size: 30px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	display: flex;
+	font-family: 'Dosis', sans-serif;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li{
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#navli ul li ul:hover{
+	visibility: visible;
+	display: block;
+}
+
+#navli{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered{
+	background-color: rgb(53, 119, 22);
+	padding: 30px 10px 22px 10px;
+  }
+  
+  .homeblack:hover{
+	background-color: rgb(46, 136, 30);
+	padding: 30px 20px 18px 10px;
+  
+  }
+
+.beforeTable{
+	overflow: hidden;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 0px auto;
+  max-height: 200px;
+}
+
+table {
+margin: 0px auto;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+th, td {
+	text-align: center;
+	padding: 8px;
+}
+
+tr{
+	background-color: #f2f2f2;
+
+}
+tr:hover {background-color:rgb(134, 241, 145);}
+
+th {
+  background-color: rgb(46, 136, 30);
+
+  color: white;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.btn {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  color: rgb(41, 133, 41);
+  /* -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease; */
+  transition: all 0.4s ease;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.btn--radius {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn--green {
+	background-color: rgb(44, 138, 44);
+}
+
+
+.foot {
+    background-color: rgba(12, 12, 12, 0.712);
+    position: absolute;
+    color: aliceblue;
+    bottom: -50vh;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* text-align: center; */
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+

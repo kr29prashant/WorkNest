@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                       rgba(0, 0, 0, 0.2)), url("../assets/matthew-henry-yETqkLnhsUI-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header_menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.712);
+}
+
+.logo{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.company_name{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin:14px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 28px;
+}
+.menu_list{
+    width: 55%;
+    padding: 40px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.about a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    transition:all .2s linear;
+}
+.home a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    transition:all .2s linear;
+}
+.home a:hover{
+    color: rgb(105, 227, 40);
+}
+.contact a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+.about a:hover{
+    color: rgb(105, 227, 40);
+}
+.contact a:hover{
+    color: rgb(105, 227, 40);
+}
+
+.section{
+    width: 100%;
+    height: auto;
+}
+
+.section .about{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.about .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.about .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(105, 227, 40);
+}
+
+.content{
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    line-height: 2rem; 
+    float: left;
+    width: 70%;
+    padding: 2rem;
+}
+
+.imageSection{
+  float: right;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+.imageSection img{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+.foot{
+    background-color: rgba(12, 12, 12, 0.712);
+    position: absolute;
+    color: aliceblue;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

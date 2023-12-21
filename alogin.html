@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN LOGIN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/userStyles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header_menu">
+                <div class="logo">
+                    <img class="logoimg" src="./assets/Logo.png" alt="nbpdllogo">
+                    <p class="company_name">North Bihar Power Distribution Company Ltd Govt of Bihar
+
+                    </p>
+                </div>
+                <div class="menu_list">
+                    <div class="about">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="about">
+                        <a href="about.html">About Us</a>
+                    </div>
+                    <!--
+                        -->
+                    <div class="contact">
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="imageSection">
+            <img src="./assets/rohan-makhecha-jw3GOzxiSkw-unsplash.jpg" alt="">
+        </div>
+
+        <div class="loginForm">
+            <div class="header">
+                ADMIN Login
+            </div>
+            <form action="process/aprocess.php" method="POST">
+                <div class="field">
+                    <span class="fa fa-envelope"></span>
+                    <input type="email" name="mailuid" required placeholder="Email">
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input class="pass-key" type="password" name="pwd" required placeholder="Password">
+                    <span class="show">SHOW</span>
+                </div>
+
+                <div class="field space">
+                    <input type="submit" name="login-submit" value="Login">
+                </div>
+            </form>
+           
+        </div>
+
+
+      
+
+        <footer class="foot">
+            Copyright &copy; NBPDCL 2022 - all rights reserved
+        </footer>
+
+    </div>
+
+    <script src="js/user.js"></script>
+</body>
+
+</html>

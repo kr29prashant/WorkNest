@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                       rgba(0, 0, 0, 0.2)), url("../assets/matthew-henry-yETqkLnhsUI-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+                       
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header_menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.712);
+    
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.company_name{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin:14px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 28px;
+}
+.menu_list{
+    width: 55%;
+    padding: 40px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.about a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    transition:all .2s linear;
+}
+.contact a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+.home a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+.about a:hover{
+    color: rgb(105, 227, 40);
+}
+.contact a:hover{
+    color: rgb(105, 227, 40);
+}
+.home a:hover{
+    color: rgb(105, 227, 40);
+}
+
+.foot{
+    background-color: rgba(12, 12, 12, 0.712);
+    position: absolute;
+    color: aliceblue;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(50%,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,.75);
+
+}
+
+.header{
+    color: rgb(105, 227, 40);
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+.field{
+    position:relative;
+    height:45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,.94);
+}
+
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #222;
+    font-size: 16px ;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(82, 47, 180);
+    display: none;
+    cursor: pointer;
+}
+.pass-key:valid ~ .show{
+    display:block;
+}
+
+.field input[type="submit"]{
+    font-size: 18px;
+    /* border-radius: 2rem; */
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    /* background-color: none; */
+    background: linear-gradient(to right, #17d72a 0%, #cc804e 100%);
+    cursor: pointer;
+}
+
+.signUp{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.signUp a{
+    color:#3498db;
+    text-decoration: none;
+}
+.signUp a:hover{
+    text-decoration: underline;
+}
+
+.imageSection{
+    float: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+    width: 35%;
+      
+  }
+  
+  .imageSection img{
+      border-radius: 10%;
+      width: 50%;
+      height: 50%;
+  }
